@@ -4,5 +4,7 @@
 - It's your task to remember the order in which the buttons activate.
 - Pay close attention to Simon's commands and click the buttons in the exact sequence.
 - The game will continue to challenge you with longer and more complex sequences.
-- Link :
+ 
+ 
+Deployed here : https://memory-booster.netlify.app/ 
   
