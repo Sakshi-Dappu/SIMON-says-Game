@@ -35,3 +35,43 @@ body {
 .userflash {
     background-color: green;
 }
+
+#startBtn {
+    display: none;
+    border-radius:5px ;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: rgba(249, 245, 245, 0.893);
+    background-color:#2980b9 ;
+   margin-left: 40%;
+   transition: background-color 0.3s ease;
+}
+
+#startBtn:hover {
+   background-color:  #6a9bbb;
+
+}
+
+/* @media screen and (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+        border: 5px solid black;
+        margin: 1.5rem;
+    }
+    
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    h2 {
+        display: none;
+    }
+    #startBtn {
+        display: block;
+    }
+}

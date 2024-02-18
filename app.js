@@ -87,3 +87,13 @@ function reset() {
   userSeq = [];
   level = 0;
 }
+
+
+document.getElementById("startBtn").addEventListener("click", function () {
+    if (started == false) {
+      console.log("game started");
+      started = true;
+  document.getElementById("startBtn").style.display = "none";
+      levelUp();
+    }
+  });
